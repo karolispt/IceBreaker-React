@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+/* .mainContainer{
+padd
+} */
+.subHeaderMin{
+    font-family: 'Montserrat', sans-serif;
+    margin: 2rem;
+    text-align: center;
+    color: rgb(117, 117, 117);
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    
+}
+
+.btnRounded{
+    margin: 0 auto;
+    margin-top: -2rem;
+    font-size: 1rem;
+    padding: 2px;
+   height: 43px;
+   width: 200px;
+   border-radius: 20px;
+   text-align: center;
+   display: block;
+}
+
+.adminEventsContainer , 
+.joinedEventsContainer{
+    margin: 0 auto;
+    margin-top:1rem;
+  padding-top: 0.5rem;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 6px rgba(68, 113, 124, 0.452); 
+}
+
+.joinedEventsContainer{
+  
+    margin-top:-3rem;
+   
+}
+
+
+
+
+
+.testEvent{
+  
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    height: 130px;
+    box-shadow: 0px 3px 6px rgba(68, 113, 124, 0.452);
+
+ 
+}
+
+.wrapperButtons {
+    margin: 0 auto;
+    width : 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* -----------  iPad  ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 568px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+.myEventsList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.joinedEventsContainer{
+  
+    margin-top:-7rem;
+   
+}
+   
+    
+  }
+
+  /* ----------- Desktop ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+
+ { 
+
+    .myEventsList{
+       width: 100%;
+   
+    }
+    .joinedEventsContainer{
+  
+        margin-top:-15rem;
+       
+    }
+            
+           
+}

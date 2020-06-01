@@ -1,0 +1,143 @@
+body {
+
+
+}
+
+
+
+
+p {
+    margin: 0%;
+    padding: 0%;
+    line-height: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.signBtn {
+
+    margin-top: 1.5rem;
+    height: 45px;
+    width: 150px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    background-color: #155767;
+
+}
+
+.back-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+/*Wrapper whole order input section  */
+.formContainer{
+    display: block;
+    margin-top: -10px !important ;
+    display: grid;
+    justify-content: center;
+    background-color:rgb(247, 247, 247);
+
+}
+.inputForm{
+    padding: 2rem; 
+  
+   
+}
+
+
+
+
+/* Class for all sections containing input-fields */
+.inputSection {
+    margin-bottom: 1rem;
+    padding: 0rem;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+
+/* Class for all input-fields */
+.input-box, .input-box-text{
+    border: solid 2px rgb(226, 226, 226);
+    border-radius: 2px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    height: 17px;
+    width: 270px;
+
+}
+PasswordMask{
+    border: solid 2px rgb(226, 226, 226);
+    border-radius: 2px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    height: 17px;
+    width: 270px; 
+}
+.input-box-text {
+
+    height: 100px;
+
+}
+
+
+
+/* Container for feedback to user below message-area */
+#status-bar {
+    height: 20px;
+    width: 100%;
+}
+
+
+
+/* -----------  iPad  ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 568px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+    .formContainer{
+        margin: 5% 10% auto 10% !important;
+         border: solid 1px rgb(219, 219, 219); 
+         height: 100%;
+         width: 80%;
+       
+       }
+
+    
+  }
+
+  /* ----------- Desktop ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+ { 
+  .inputForm{
+     
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 50px;
+   
+  }
+  .formContainer{
+   margin: 5% 10% auto 10% !important;
+    border: solid 1px rgb(219, 219, 219); 
+    height: 600px;
+    width: 80%;
+  
+  }
+  .signBtn {
+    margin: 0rem;
+    margin-top: 2rem;
+    float: left;
+ 
+   
+
+}        
+           
+}

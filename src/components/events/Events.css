@@ -1,0 +1,203 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+body {
+margin: 0 auto;
+}
+/* Deletes chrome blue focus-border */
+
+
+
+.wrapperGenreButtons {
+display: grid;
+justify-content: center;
+
+}
+
+.wrapperGenreButtons button {
+border-radius: 3px;
+font-family: 'Montserrat', sans-serif;
+margin: 1.8rem;
+height: 88px;
+width: 289px;
+text-align: left;
+font-size: 22px;
+border-style: none;
+margin-top: 10px;
+margin-bottom: 10px;
+box-shadow: 0px 3px 6px grey;
+position: relative;
+padding-left: 20px;
+display: flex;
+justify-content: space-around;
+}
+
+
+/*Buttons*/
+.btn-coffeMeeting {
+background-color: #155767;
+color: white;
+    vertical-align: middle;
+}
+
+.btn-coffeMeeting img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 1px;
+    margin-left: 100px;
+}
+
+.btn-onTour {
+color: white;
+background-color: #30873E;
+
+}
+
+.btn-onTour img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 1px;
+    margin-left: 100px;
+}
+
+.btn-physicalActivity {
+color:white;
+background-color: #982B74;
+}
+
+.btn-physicalActivity img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 1px;
+    margin-left: 40px;
+}
+
+.btn-foodAndTalk {
+color: white;
+background-color: #007EB4;
+}
+
+.btn-foodAndTalk img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 1px;
+    margin-left: 100px;
+}
+
+.btn-studyGroup {
+color: white;
+background-color: #BB2D56;
+}
+
+.btn-studyGroup img {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 1px;
+    margin-left: 40px;
+}
+
+.btn-createEvent{
+    display:block;
+    margin:0 auto;
+    padding: 10px;
+    background-color: #155767;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    height: 90px;
+    width: 207px;
+    text-align: center;
+    font-size: 16px;
+    border-style: none;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 6px grey;
+    
+}
+
+.btn-createEvent img{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 1px;
+    margin-right: 1px;
+}
+.btnP{
+
+    margin-top: 0.7rem;
+}
+
+.btnBigScreen{
+    display: none;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.8rem;
+    color: #252525;
+}
+
+
+
+/* ----------- < iPad  ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+
+    .wrapperContent{
+    
+        margin-top: 4rem;
+      }
+    
+  }
+
+  /* ----------- Desktop ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+
+ { 
+    .wrapperGenreButtons{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        max-width: 100%;;
+        display: flex;
+        justify-content: 40% 40% ;
+    }
+    .wrapperGenreButtons button {
+        height: 150px;
+        width:150px;
+        border-radius: 50%;
+      
+        }
+
+        .wrapperGenreButtons button * {
+            margin: 0 auto;
+            padding: 0%;
+            height: 60%;
+            width: 60%
+           
+            }
+
+            .wrapperGenreButtons button .btnP {
+            
+               display: none;
+               
+            }
+
+            .btnBigScreen{
+                display: block;
+           
+            }
+            
+
+            
+}

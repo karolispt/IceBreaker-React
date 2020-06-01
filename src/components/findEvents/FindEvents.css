@@ -1,0 +1,98 @@
+
+.eventPagesHeader{
+ margin-bottom: 3rem;
+}
+.calender{
+    height: 40px;
+}
+.back-btn{
+padding: 0.5rem;
+text-align: center;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+float: left;
+background-color: rgb(156, 156, 156);
+}
+
+.btn {
+padding: 2rem;
+width: 100%;
+max-width: 300px;
+display: flex;
+justify-content: space-between;
+font-size: 1.3rem;
+}
+ .findEventsContainer{
+     margin-top: 3rem;
+ 
+ }
+
+
+
+.joinBtn{
+margin-bottom: 1rem;
+
+ /* background-color: rgb(121, 113, 94) !important; */
+
+}
+ .eventBox{
+
+    display:grid;
+
+}
+
+.genreImg{
+    margin: 1rem;
+    height: 200px;
+}
+
+
+
+
+
+
+    /* ----------- < iPad  ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 568px) 
+and (max-device-width: 1112px)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+
+
+  
+}
+
+/* ----------- Desktop ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+
+{ 
+
+    .eventContainer{
+        margin: 0 auto;
+        margin-top: 2rem;
+    
+        
+    }
+
+    .eventBox{
+        margin: 0 auto;
+        width: 95%;
+    }
+
+   
+
+    .back-btn{
+        padding: 0.8rem;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        float: left;
+        }
+
+    
+}

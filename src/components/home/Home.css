@@ -1,0 +1,86 @@
+
+.greeting {
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+  }
+.wrapperPenguin{
+    margin: 0 auto;
+    padding: 0%;
+    height: 100px;
+    width: 80%;
+    text-align: center;
+}
+
+.frontPenguin{
+height: 90%;
+}
+
+.greetContainer{
+    text-align: center;
+    margin:-2rem auto auto auto; 
+
+}
+.homeContainer .btn{
+
+    height: 110px;
+    font-size: 1.2em;
+    max-width: 300px;
+   
+}
+
+.btnWrapper{
+    margin-bottom: 20%;
+    padding: 5%;
+    text-align: center;
+}
+/* ----------- < iPad  ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 568px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+
+    .wrapperPenguin{
+        margin-top: 10rem;
+       
+    }
+  
+
+       
+        .btnWrapper {
+            margin-top: -2rem;
+           display: flex;
+           justify-content: space-evenly;
+        }
+
+        .btnWrapper .btn { 
+            width: 96%;
+        }
+    
+  }
+
+  /* ----------- Desktop ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+
+ { 
+    .wrapperPenguin{
+        margin: 12rem auto 3rem auto;
+       
+    }
+
+    .frontPenguin{
+        height: 100%;
+        }
+
+    
+
+        .btnWrapper {
+           display: flex;
+           justify-content: space-evenly;
+        }
+}
